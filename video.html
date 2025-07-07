@@ -1,79 +1,265 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Video is loading... Please wait 30 seconds</title>
+  <meta charset="UTF-8">
+  <title>Video is loading...</title>
   <style>
     body {
       font-family: Arial, sans-serif;
       text-align: center;
       background: #f9f9f9;
-      padding-top: 100px;
-    }
-    .box {
-      background: #ffffcc;
-      padding: 20px;
-      display: inline-block;
-      border: 1px solid #ddd;
-      box-shadow: 0 0 10px #ccc;
-    }
-    .spinner {
-      margin-top: 20px;
-      width: 40px;
-      height: 40px;
-      border: 5px solid #ccc;
-      border-top: 5px solid #333;
-      border-radius: 50%;
-      animation: spin 1s linear infinite;
-    }
-    @keyframes spin {
-      100% { transform: rotate(360deg); }
+      padding-top: 50px;
     }
     #countdown {
-      font-size: 18px;
-      color: red;
-      font-weight: bold;
+      font-size: 24px;
+      margin-bottom: 20px;
+      background: #ffffcc;
+      display: inline-block;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #ccc;
+    }
+    iframe {
+      width: 90%;
+      height: 600px;
+      border: none;
+      box-shadow: 0 0 10px #aaa;
     }
   </style>
 </head>
 <body>
-  <div class="box">
-    <h3>Video is loading... Please wait <span id="countdown">30</span> seconds!</h3>
-    <div class="spinner"></div>
-  </div>
+
+  <div id="countdown">Video is loading... Please wait <span id="time">30</span> seconds!</div>
+
+  <!-- তোমার ওয়েবসাইট iframe হিসেবে নিচে দেখাবে -->
+  <iframe src="https://sites.google.com/view/fghjhvb/home"></iframe>
 
   <script>
-    let timeLeft = 30;
-    const countdownEl = document.getElementById("countdown");
+    let seconds = 30;
+    const timeEl = document.getElementById("time");
 
-    const timer = setInterval(() => {
-      timeLeft--;
-      countdownEl.textContent = timeLeft;
+    const countdown = setInterval(() => {
+      seconds--;
+      timeEl.textContent = seconds;
 
-      if (timeLeft <= 0) {
-        clearInterval(timer);
-        // Redirect to external link
-        window.location.href = "https://www.profitablecratecpm.com/qhmb8jf5qe?key=bd1ee7d553b6dde92342028aa9e91b27";
+      if (seconds <= 0) {
+        clearInterval(countdown);
+        document.getElementById("countdown").textContent = "Video is ready!";
       }
     }, 1000);
   </script>
+
 </body>
 </html>
-
-<script>
-  let timeLeft = 30;
-  const countdownEl = document.getElementById("countdown");
-
-  const timer = setInterval(() => {
-    timeLeft--;
-    countdownEl.textContent = timeLeft;
-
-    if (timeLeft <= 0) {
-      clearInterval(timer);
-      // ✅ এখানেই redirect হবে
-      window.location.href = "https://www.profitablecratecpm.com/qhmb8jf5qe?key=bd1ee7d553b6dde92342028aa9e91b27";
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Video is loading...</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background: #f9f9f9;
+      padding-top: 50px;
     }
-  }, 1000);
-</script>
+    #countdown {
+      font-size: 24px;
+      margin-bottom: 20px;
+      background: #ffffcc;
+      display: inline-block;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #ccc;
+    }
+    iframe {
+      width: 90%;
+      height: 600px;
+      border: none;
+      box-shadow: 0 0 10px #aaa;
+    }
+  </style>
+</head>
+<body>
 
+  <div id="countdown">Video is loading... Please wait <span id="time">30</span> seconds!</div>
+
+  <!-- তোমার ওয়েবসাইট iframe হিসেবে নিচে দেখাবে -->
+  <iframe src="https://sites.google.com/view/fghjhvb/home"></iframe>
+
+  <script>
+    let seconds = 30;
+    const timeEl = document.getElementById("time");
+
+    const countdown = setInterval(() => {
+      seconds--;
+      timeEl.textContent = seconds;
+
+      if (seconds <= 0) {
+        clearInterval(countdown);
+        document.getElementById("countdown").textContent = "Video is ready!";
+      }
+    }, 1000);
+  </script>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Video is loading...</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background: #f9f9f9;
+      padding-top: 50px;
+    }
+    #countdown {
+      font-size: 24px;
+      margin-bottom: 20px;
+      background: #ffffcc;
+      display: inline-block;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #ccc;
+    }
+    iframe {
+      width: 90%;
+      height: 600px;
+      border: none;
+      box-shadow: 0 0 10px #aaa;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="countdown">Video is loading... Please wait <span id="time">30</span> seconds!</div>
+
+  <!-- তোমার ওয়েবসাইট iframe হিসেবে নিচে দেখাবে -->
+  <iframe src="https://sites.google.com/view/fghjhvb/home"></iframe>
+
+  <script>
+    let seconds = 30;
+    const timeEl = document.getElementById("time");
+
+    const countdown = setInterval(() => {
+      seconds--;
+      timeEl.textContent = seconds;
+
+      if (seconds <= 0) {
+        clearInterval(countdown);
+        document.getElementById("countdown").textContent = "Video is ready!";
+      }
+    }, 1000);
+  </script>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Video is loading...</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background: #f9f9f9;
+      padding-top: 50px;
+    }
+    #countdown {
+      font-size: 24px;
+      margin-bottom: 20px;
+      background: #ffffcc;
+      display: inline-block;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #ccc;
+    }
+    iframe {
+      width: 90%;
+      height: 600px;
+      border: none;
+      box-shadow: 0 0 10px #aaa;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="countdown">Video is loading... Please wait <span id="time">30</span> seconds!</div>
+
+  <!-- তোমার ওয়েবসাইট iframe হিসেবে নিচে দেখাবে -->
+  <iframe src="https://sites.google.com/view/fghjhvb/home"></iframe>
+
+  <script>
+    let seconds = 30;
+    const timeEl = document.getElementById("time");
+
+    const countdown = setInterval(() => {
+      seconds--;
+      timeEl.textContent = seconds;
+
+      if (seconds <= 0) {
+        clearInterval(countdown);
+        document.getElementById("countdown").textContent = "Video is ready!";
+      }
+    }, 1000);
+  </script>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Video is loading...</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background: #f9f9f9;
+      padding-top: 50px;
+    }
+    #countdown {
+      font-size: 24px;
+      margin-bottom: 20px;
+      background: #ffffcc;
+      display: inline-block;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #ccc;
+    }
+    iframe {
+      width: 90%;
+      height: 600px;
+      border: none;
+      box-shadow: 0 0 10px #aaa;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="countdown">Video is loading... Please wait <span id="time">30</span> seconds!</div>
+
+  <!-- তোমার ওয়েবসাইট iframe হিসেবে নিচে দেখাবে -->
+  <iframe src="https://sites.google.com/view/fghjhvb/home"></iframe>
+
+  <script>
+    let seconds = 30;
+    const timeEl = document.getElementById("time");
+
+    const countdown = setInterval(() => {
+      seconds--;
+      timeEl.textContent = seconds;
+
+      if (seconds <= 0) {
+        clearInterval(countdown);
+        document.getElementById("countdown").textContent = "Video is ready!";
+      }
+    }, 1000);
+  </script>
+
+</body>
+</html>
