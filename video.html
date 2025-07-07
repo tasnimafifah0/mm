@@ -60,3 +60,20 @@
   </script>
 </body>
 </html>
+
+<script>
+  let timeLeft = 30;
+  const countdownEl = document.getElementById("countdown");
+
+  const timer = setInterval(() => {
+    timeLeft--;
+    countdownEl.textContent = timeLeft;
+
+    if (timeLeft <= 0) {
+      clearInterval(timer);
+      // ✅ এখানেই redirect হবে
+      window.location.href = "https://www.profitablecratecpm.com/qhmb8jf5qe?key=bd1ee7d553b6dde92342028aa9e91b27";
+    }
+  }, 1000);
+</script>
+
